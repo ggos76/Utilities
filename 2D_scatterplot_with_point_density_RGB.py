@@ -12,6 +12,8 @@ from scipy.stats import gaussian_kde
 # User defined variables
 # ----------------------------------------------------------------------------------------------------------------------
 
+input_type = "raster"       # Valid options are "raster" or "text"
+
 input_file = r'D:\test_python\test3_WorldView_DSM_vs_Glo30DEM.pix'
 x_axis_chan = 1
 y_axis_chan = 3
